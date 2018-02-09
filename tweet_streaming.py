@@ -23,7 +23,11 @@ consumer_secret="M1PFruCj7zNRb6a4DGsJQyysz1iGNjcaG8lr3Aj4wRogRUXar5"
 access_token="940709647652196354-VOjpjbJDL95PBFMaIstpx4F0NboGQl7"
 access_token_secret="lD2IscgpN65h9yhiwI7QKhY1dzCcSFWYDoYJ4NZkwlFap"
 
-loc = [-0.351468,51.38494,0.148271,51.672343]
+#loc = [-0.351468,51.38494,0.148271,51.672343]
+loc = [-7.9916607813,50.314954465,1.8081439062,60.9157]
+
+
+
 LANGUAGES = ['en']
 
 stop = set(stopwords.words('english'))
@@ -55,16 +59,11 @@ class StdOutListener(StreamListener):
         tweetText = re.sub(r'[^\x00-\x7f]',r'', tweetText)
 
         #removing puntuations
-        #tweetText = re.sub(r'[^a-zA-Z0-9\s]', ' ', tweetText)
+        tweetText = re.sub(r'[^a-zA-Z0-9@\S]', ' ', tweetText)
 
-        sWordRemovedTweet = [i for i in word_tokenize(tweetText.lower()) if i not in stop]
-        cleanedTweet = ' '.join(sWordRemovedTweet)
-        fhOut.write("\n%s,%s" % (l, cleanedTweet))
+        fhOut.write("\n%s,%s" % (l, tweetText))
 
-        #fhOut.write(('\n%s;%s;%s;%s' % (j["user"]["name"], j["text"], l, j["user"]["location"])))
-        #print(j["user"]["location"], j["user"]["name"])
-
-        print(j["text"])
+        print(tweetText)
         return 1
 
     def on_error(self, status):
@@ -72,7 +71,7 @@ class StdOutListener(StreamListener):
 
 if __name__ == '__main__':
     try:
-        fhOut = codecs.open("tweet.csv", "w+", "utf-8")
+        fhOut = codecs.open("tweet_v5.csv", "w+", "utf-8")
         fhOut.write('date,text')
 
         #Create the listener
@@ -85,5 +84,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
     #User pressed ctrl+c -- get ready to exit the program
         pass
-    #Close the output file
     fhOut.close()
