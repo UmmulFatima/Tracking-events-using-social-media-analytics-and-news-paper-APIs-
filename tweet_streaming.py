@@ -71,7 +71,7 @@ class StdOutListener(StreamListener):
 
 if __name__ == '__main__':
     try:
-        fhOut = codecs.open("tweet_v5.csv", "w+", "utf-8")
+        fhOut = codecs.open("tweet_v6.csv", "w+", "utf-8")
         fhOut.write('date,text')
 
         #Create the listener

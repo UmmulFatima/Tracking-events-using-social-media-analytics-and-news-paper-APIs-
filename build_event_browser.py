@@ -5,13 +5,14 @@ import time
 import argparse
 import os
 import shutil
-
+import numpy as np
 # web
 from flask import Flask, render_template
 from flask_frozen import Freezer
 
 # mabed
 import mabed.utils as utils
+
 
 __author__ = "Adrien Guille"
 __email__ = "adrien.guille@univ-lyon2.fr"
@@ -40,6 +41,7 @@ if __name__ == '__main__':
     # format data
     print('Preparing data...')
     event_descriptions = []
+    event_details = []
     impact_data = []
     formatted_dates = []
     for i in range(0, mabed.corpus.time_slice_count):
@@ -58,6 +60,10 @@ if __name__ == '__main__':
                                    str(mabed.corpus.to_date(time_interval[1])),
                                    main_term,
                                    ', '.join(related_terms)))
+        #test1
+        event_details.append((main_term,', '.join(related_terms)))
+        #ends test1
+
         for i in range(0, mabed.corpus.time_slice_count):
             value = 0
             if time_interval[0] <= i <= time_interval[1]:
@@ -66,6 +72,18 @@ if __name__ == '__main__':
                     value = 0
             formatted_anomaly.append('['+str(formatted_dates[i])+','+str(value)+']')
         impact_data.append('{"key":"' + main_term + '", "values":[' + ','.join(formatted_anomaly) + ']}')
+        
+        #test1 scope start here
+        #print(main_term)
+
+    #print(event_details)
+    a = np.array(event_details)
+    the_list = a.tolist()
+    with open('event_details.txt', 'w') as file_handler:
+        for item in the_list:
+            file_handler.write("{}\n".format(item))
+    #ends here
+
 
     if args.o is not None:
         if os.path.exists(args.o):
