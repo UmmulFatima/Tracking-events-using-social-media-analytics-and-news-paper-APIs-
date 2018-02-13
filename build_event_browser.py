@@ -72,9 +72,6 @@ if __name__ == '__main__':
                     value = 0
             formatted_anomaly.append('['+str(formatted_dates[i])+','+str(value)+']')
         impact_data.append('{"key":"' + main_term + '", "values":[' + ','.join(formatted_anomaly) + ']}')
-        
-        #test1 scope start here
-        #print(main_term)
 
     #print(event_details)
     a = np.array(event_details)

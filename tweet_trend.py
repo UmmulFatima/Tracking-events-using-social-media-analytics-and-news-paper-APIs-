@@ -5,13 +5,10 @@
 
 import tweepy
 from tweepy import OAuthHandler
-#import sys
-import matplotlib.mlab as mlab
-from collections import Counter
-import numpy as np
-import matplotlib.pyplot as plt
+import sys
 
-#sys.stdout = open('output_trendstest.txt','wt')
+
+sys.stdout = open('output_trendstest.txt','wt')
 
 consumer_key="RtdTtilPMop1lGHBU2EwkTGr4"
 consumer_secret="M1PFruCj7zNRb6a4DGsJQyysz1iGNjcaG8lr3Aj4wRogRUXar5"
@@ -47,4 +44,4 @@ trend_list = [trend['name'] for trend in trends]
 #the_list = a.tolist()
 with open('trending_event.txt', 'w') as file_handler:
     for item in trend_list:
-    	file_handler.write("{}\n".format(item))
+        file_handler.write("{}\n".format(item))
