@@ -1,0 +1,8 @@
+python detect_events.py tweets.csv 5 --sw twitter_en.txt --sep , --o result
+python build_event_browser.py result
+
+https://github.com/ShuaiW/twitter-analysis
+https://github.com/heerme/twitter-topics
+https://www.quora.com/What-algorithm-is-used-to-find-trending-topics-on-Twitter
+https://www.safaribooksonline.com/library/view/mining-the-social/9781449368180/ch01.html
+https://github.com/ShuaiW/twitter-analysis/blob/master/real-time-twitter-trend-discovery.py
