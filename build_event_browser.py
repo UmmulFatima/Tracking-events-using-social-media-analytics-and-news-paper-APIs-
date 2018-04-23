@@ -76,11 +76,7 @@ if __name__ == '__main__':
     # print(event_details)
     a = np.array(event_details)
     the_list = a.tolist()
-<<<<<<< HEAD
     with open('output/detectedEvent.txt', 'w') as file_handler:
-=======
-    with open('detectedEvent.txt', 'w') as file_handler:
->>>>>>> dc4e6cf78b52506e8eb12ba8b1e1ec2604b8933e
         for item in the_list:
             file_handler.write("{}\n".format(item))
     # ends here
