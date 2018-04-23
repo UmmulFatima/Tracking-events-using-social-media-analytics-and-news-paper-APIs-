@@ -4,7 +4,7 @@
 import timeit
 import argparse
 
-# mabed
+#mabed
 from mabed.corpus import Corpus
 from mabed.mabed import MABED
 import mabed.utils as utils
@@ -29,9 +29,9 @@ if __name__ == '__main__':
     print('Parameters:')
     print('   Corpus: %s\n   k: %d\n   Stop-words: %s\n   Min. abs. word frequency: %d\n   Max. rel. word frequency: %f' %
           (args.i, args.k, args.sw, args.maf, args.mrf))
-    #print('   p: %d\n   theta: %f\n   sigma: %f' % (args.p, args.t, args.s))
+    print('   p: %d\n   theta: %f\n   sigma: %f' % (args.p, args.t, args.s))
 
-    #print('Loading corpus...')
+    print('Loading corpus...')
     start_time = timeit.default_timer()
     my_corpus = Corpus(args.i, args.sw, args.maf, args.mrf, args.sep)
     elapsed = timeit.default_timer() - start_time

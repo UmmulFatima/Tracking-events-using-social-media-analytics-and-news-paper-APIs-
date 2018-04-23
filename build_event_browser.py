@@ -13,7 +13,6 @@ from flask_frozen import Freezer
 # mabed
 import mabed.utils as utils
 
-
 __author__ = "Adrien Guille"
 __email__ = "adrien.guille@univ-lyon2.fr"
 
@@ -28,6 +27,7 @@ def index():
                            k=mabed.k,
                            theta=mabed.theta,
                            sigma=mabed.sigma)
+
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description='Build event browser')
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     impact_data = []
     formatted_dates = []
     for i in range(0, mabed.corpus.time_slice_count):
-        formatted_dates.append(int(time.mktime(mabed.corpus.to_date(i).timetuple()))*1000)
+        formatted_dates.append(int(time.mktime(mabed.corpus.to_date(i).timetuple())) * 1000)
     for event in mabed.events:
         mag = event[0]
         main_term = event[2]
@@ -54,15 +54,15 @@ if __name__ == '__main__':
         time_interval = event[1]
         related_terms = []
         for related_term in event[3]:
-            related_terms.append(related_term[0]+' ('+str("{0:.2f}".format(related_term[1]))+')')
+            related_terms.append(related_term[0] + ' (' + str("{0:.2f}".format(related_term[1])) + ')')
         event_descriptions.append((mag,
                                    str(mabed.corpus.to_date(time_interval[0])),
                                    str(mabed.corpus.to_date(time_interval[1])),
                                    main_term,
                                    ', '.join(related_terms)))
-        #test1
+        # test1
         event_details.append((main_term,', '.join(related_terms)))
-        #ends test1
+        # ends test1
 
         for i in range(0, mabed.corpus.time_slice_count):
             value = 0
@@ -70,17 +70,20 @@ if __name__ == '__main__':
                 value = raw_anomaly[i]
                 if value < 0:
                     value = 0
-            formatted_anomaly.append('['+str(formatted_dates[i])+','+str(value)+']')
+            formatted_anomaly.append('[' + str(formatted_dates[i]) + ',' + str(value) + ']')
         impact_data.append('{"key":"' + main_term + '", "values":[' + ','.join(formatted_anomaly) + ']}')
 
-    #print(event_details)
+    # print(event_details)
     a = np.array(event_details)
     the_list = a.tolist()
+<<<<<<< HEAD
+    with open('output/detectedEvent.txt', 'w') as file_handler:
+=======
     with open('detectedEvent.txt', 'w') as file_handler:
+>>>>>>> dc4e6cf78b52506e8eb12ba8b1e1ec2604b8933e
         for item in the_list:
             file_handler.write("{}\n".format(item))
-    #ends here
-
+    # ends here
 
     if args.o is not None:
         if os.path.exists(args.o):

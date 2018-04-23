@@ -1,10 +1,16 @@
 from __future__ import absolute_import, print_function
+<<<<<<< HEAD
+=======
 
+>>>>>>> dc4e6cf78b52506e8eb12ba8b1e1ec2604b8933e
 import codecs
 import json
 import re
 from datetime import datetime
+<<<<<<< HEAD
+=======
 
+>>>>>>> dc4e6cf78b52506e8eb12ba8b1e1ec2604b8933e
 from nltk.corpus import stopwords
 from tweepy import OAuthHandler
 from tweepy import Stream
@@ -29,16 +35,39 @@ class StdOutListener(StreamListener):
         j = json.loads(data)
         if not j["text"].startswith('RT'):
             unformatted_time = j["created_at"]
+<<<<<<< HEAD
+            # Use re to get rid of the milliseconds.
+            remove_ms = lambda x: re.sub("\+\d+\s", "", x)
+=======
 
             # Use re to get rid of the milliseconds.
             remove_ms = lambda x: re.sub("\+\d+\s", "", x)
 
+>>>>>>> dc4e6cf78b52506e8eb12ba8b1e1ec2604b8933e
             # Make the string into a datetime object.
             mk_dt = lambda x: datetime.strptime(remove_ms(x), "%a %b %d %H:%M:%S %Y")
             my_form = lambda x: "{:%Y-%m-%d %H:%M:%S}".format(mk_dt(x))
             formatted_time = my_form(unformatted_time)
 
             tweet_text = j["text"]
+<<<<<<< HEAD
+            print(tweet_text)
+
+            # Stripping the URLs
+            #tweetText = re.sub(r"http\S+", "", tweet_text, flags=re.MULTILINE)
+            #tweetText = re.sub(r"(?:\|https?\://)\S+", "", tweetText, flags=re.MULTILINE)
+            #print('Stripping the URLs', tweetText)
+
+            # Removing the Hex characters
+            tweetText = re.sub(r'[^\x00-\x7f]', r'', tweet_text)
+            print('Removing the Hex characters', tweetText)
+
+            # removing punctuations
+            tweetText = re.sub(r'[^a-zA-Z0-9@\S]', ' ', tweetText)
+            remove_pun = str.maketrans({key: None for key in punctuation})
+            tweetText = tweetText.translate(remove_pun)
+            print('removing punctuation', tweetText)
+=======
             # Stripping the URLs
             tweetText = re.sub(r"(?:\|https?\://)\S+", "", tweet_text, flags=re.MULTILINE)
             # Removing HASH
@@ -47,6 +76,7 @@ class StdOutListener(StreamListener):
             tweetText = re.sub(r'[^\x00-\x7f]', r'', tweetText)
             # removing puntuations
             tweetText = re.sub(r'[^a-zA-Z0-9@\S]', ' ', tweetText)
+>>>>>>> dc4e6cf78b52506e8eb12ba8b1e1ec2604b8933e
 
             fhOut.write("\n%s,%s" % (formatted_time, tweetText))
             print(formatted_time, tweetText)
