@@ -1,4 +1,4 @@
-python detect_events.py tweets.csv 5 --sw twitter_en.txt --sep , --o result
+python detect_events.py tweets\tweets.csv 5 --sw stopwords\twitter_en.txt --sep , --o result
 python build_event_browser.py result
 
 https://github.com/ShuaiW/twitter-analysis
