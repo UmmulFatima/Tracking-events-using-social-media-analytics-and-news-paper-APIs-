@@ -58,6 +58,9 @@ if __name__ == '__main__':
     # print(df)
     # print(df.astype(bool).sum(axis=1))
 
+
+
+
     df = pd.DataFrame({'col_two': DetectedEvent,
                        'column_3': df.astype(bool).sum(axis=1)})
 
