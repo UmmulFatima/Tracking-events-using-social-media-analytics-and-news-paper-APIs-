@@ -27,29 +27,3 @@ file_name = "trend"+str(cur_time)+".txt"
 with open('trends/' + file_name, 'w') as file_handler:
     for item in trend_list:
         file_handler.write("{}\n".format(item))
-
-# start_time = time.time()
-# time_dif = 0
-# try:
-#     while(time_dif<3):
-#         trends1 = api.trends_place(23424975)
-#         data = trends1[0]
-#         trends = data['trends']
-#         # grab the name from each trend
-#         trend_list = [trend['name'] for trend in trends]
-#         cur_time = time.time()
-#         file_name = "trend"+str(cur_time)+".txt"
-#         a = np.array(trend_list)
-#         the_list = a.tolist()
-#         with open(file_name, 'w') as file_handler:
-#             for item in trend_list:
-#                 file_handler.write("{}\n".format(item))
-#         time_dif = cur_time - start_time
-#         hours, rest = divmod(time_dif, 3600)
-#
-#         minutes, seconds = divmod(rest, 60)
-#
-#         time_dif=minutes
-#         print(time_dif)
-# except:
-#     print('r')

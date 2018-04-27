@@ -38,9 +38,9 @@ class StdOutListener(StreamListener):
             print(tweet_text)
 
             # Stripping the URLs
-            #tweetText = re.sub(r"http\S+", "", tweet_text, flags=re.MULTILINE)
-            #tweetText = re.sub(r"(?:\|https?\://)\S+", "", tweetText, flags=re.MULTILINE)
-            #print('Stripping the URLs', tweetText)
+            # tweetText = re.sub(r"http\S+", "", tweet_text, flags=re.MULTILINE)
+            # tweetText = re.sub(r"(?:\|https?\://)\S+", "", tweetText, flags=re.MULTILINE)
+            # print('Stripping the URLs', tweetText)
 
             # Removing the Hex characters
             tweetText = re.sub(r'[^\x00-\x7f]', r'', tweet_text)
@@ -52,8 +52,8 @@ class StdOutListener(StreamListener):
             tweetText = tweetText.translate(remove_pun)
             print('removing punctuation', tweetText)
 
-            fhOut.write("\n%s,%s" % (formatted_time, tweetText))
-            print(formatted_time, tweetText)
+            fhOut.write("\n%s" % tweetText)
+            print(tweetText)
             return True
 
     def on_error(self, status_code):
@@ -64,15 +64,15 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
     try:
         cur_time = datetime.now().strftime("%Y%m%d-%H%M%S")
-        file_name = "tweets" + str(cur_time) + ".csv"
+        file_name = "tweets_manual" + str(cur_time) + ".csv"
 
         fhOut = codecs.open('tweets/' + file_name, "w+", "utf-8")
-        fhOut.write('date,text')
+        fhOut.write('text')
         listener = StdOutListener()
         auth = OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
         stream = Stream(auth, listener)
-        stream.filter(locations=loc, languages=LANGUAGES)
+        stream.filter(locations=loc, languages=LANGUAGES, track=['LONDON April2018 OnStageWithTheVamps FridayFeeling'])
 
     except KeyboardInterrupt:
         pass

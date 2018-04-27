@@ -7,6 +7,8 @@ from multiprocessing import Pool
 import networkx as nx
 import numpy as np
 import mabed.stats as st
+import pandas as pd
+from tabulate import tabulate
 
 __authors__ = "Adrien Guille, Nicolas Dugué"
 __email__ = "adrien.guille@univ-lyon2.fr"
