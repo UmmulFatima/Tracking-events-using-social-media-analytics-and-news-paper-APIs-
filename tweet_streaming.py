@@ -35,7 +35,7 @@ class StdOutListener(StreamListener):
             formatted_time = my_form(unformatted_time)
 
             tweet_text = j["text"]
-            print(tweet_text)
+            #print(tweet_text)
 
             # Stripping the URLs
             # tweetText = re.sub(r"http\S+", "", tweet_text, flags=re.MULTILINE)
@@ -44,16 +44,16 @@ class StdOutListener(StreamListener):
 
             # Removing the Hex characters
             tweetText = re.sub(r'[^\x00-\x7f]', r'', tweet_text)
-            print('Removing the Hex characters', tweetText)
+            #print('Removing the Hex characters', tweetText)
 
             # removing punctuations
             tweetText = re.sub(r'[^a-zA-Z0-9@\S]', ' ', tweetText)
             remove_pun = str.maketrans({key: None for key in punctuation})
             tweetText = tweetText.translate(remove_pun)
-            print('removing punctuation', tweetText)
+            #print('removing punctuation', tweetText)
 
-            fhOut.write("\n%s" % tweetText)
-            print(tweetText)
+            fhOut.write("\n%s;%s" % (formatted_time, tweetText))
+            print(formatted_time, tweetText)
             return True
 
     def on_error(self, status_code):
@@ -67,7 +67,7 @@ if __name__ == '__main__':
         file_name = "tweets_manual" + str(cur_time) + ".csv"
 
         fhOut = codecs.open('tweets/' + file_name, "w+", "utf-8")
-        fhOut.write('text')
+        fhOut.write('date;text')
         listener = StdOutListener()
         auth = OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
