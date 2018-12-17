@@ -1,5 +1,5 @@
-python detect_events.py tweets\tweets.csv 5 --sw stopwords\twitter_en.txt --sep , --o result
-python build_event_browser.py result
+python detect_events.py events2012lookup\relevant_tweets\relevant_tweetText.csv 10 --sw stopwords\twitter_en.txt --sep ; --o event2012_result
+python build_event_browser.py --o output generated_event_for_relevant_tweets
 
 https://github.com/ShuaiW/twitter-analysis
 https://github.com/heerme/twitter-topics

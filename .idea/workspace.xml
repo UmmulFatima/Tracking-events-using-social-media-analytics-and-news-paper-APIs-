@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a386f4d7-9659-43b7-b558-42080955dd7b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Tracking-events-using-social-media-analytics-and-news-paper-APIs-.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENCE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/LDA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/bargrapg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/css/nv.d3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/fonts/opensans-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/fonts/opensans-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/fonts/opensans-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/fonts/opensans.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/fonts/opensans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/fonts/opensans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/js/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/js/jquery-1.12.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/js/nv.d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/static/js/nv.d3.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browser/templates/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_event_browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/101" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/102" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1023" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1025" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1027" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/103" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1031" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1033" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1035" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1039" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/104" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1041" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1043" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1044" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1045" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1046" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1047" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1049" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/105" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1050" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1051" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1052" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/1053" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/106" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/107" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/108" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/109" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/111" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/112" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/114" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/115" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/116" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/117" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/118" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/119" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/120" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/121" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/122" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/123" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/124" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/125" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/126" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/127" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/128" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/129" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/130" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/131" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/133" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/134" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/135" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/136" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/137" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/138" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/139" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/140" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/141" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/142" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/143" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/144" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/145" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/148" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/149" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/150" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/151" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/152" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/153" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/154" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/155" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/156" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/157" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/158" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/159" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/160" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/161" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/162" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/163" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/164" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/165" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/166" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/167" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/168" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/169" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/170" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/171" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/172" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/173" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/174" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/175" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/176" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/177" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/178" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/179" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/180" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/181" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/182" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/183" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/184" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/185" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/186" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/187" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/188" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/189" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/190" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/191" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/192" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/193" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/194" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/195" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/196" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/197" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/198" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/199" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/201" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/202" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/203" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/205" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/206" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/207" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/208" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/209" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/210" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/211" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/212" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/213" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/214" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/215" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/217" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/218" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/219" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/220" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/221" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/222" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/223" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/224" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/225" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/226" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/227" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/229" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/230" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/231" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/232" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/234" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/235" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/237" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/238" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/239" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/240" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/241" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/243" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/244" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/245" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/246" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/247" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/248" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/249" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/250" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/251" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/252" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/253" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/255" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/257" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/258" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/259" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/260" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/261" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/262" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/263" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/264" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/265" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/266" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/267" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/268" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/269" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/270" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/271" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/272" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/273" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/274" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/275" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/276" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/277" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/278" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/279" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/280" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/281" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/282" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/283" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/284" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/285" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/286" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/287" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/288" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/289" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/290" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/291" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/292" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/293" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/294" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/295" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/296" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/297" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/298" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/299" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/301" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/303" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/304" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/305" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/306" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/307" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/308" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/309" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/310" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/311" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/312" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/313" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/314" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/315" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/316" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/317" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/318" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/319" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/320" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/321" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/322" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/323" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/324" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/325" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/327" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/328" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/329" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/330" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/331" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/332" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/333" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/334" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/335" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/337" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/339" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/340" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/341" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/342" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/343" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/344" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/345" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/346" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/347" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/348" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/349" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/351" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/352" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/353" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/354" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/355" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/356" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/357" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/358" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/359" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/360" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/361" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/362" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/363" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/364" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/365" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/366" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/367" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/368" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/369" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/370" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/371" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/372" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/373" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/374" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/375" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/376" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/377" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/378" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/379" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/380" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/381" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/382" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/383" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/384" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/385" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/386" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/387" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/388" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/389" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/390" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/391" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/392" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/393" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/394" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/395" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/396" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/397" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/398" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/399" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/400" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/401" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/402" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/403" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/404" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/405" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/406" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/407" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/409" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/410" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/411" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/412" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/413" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/414" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/415" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/416" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/417" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/418" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/420" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/421" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/422" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/423" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/424" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/425" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/426" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/427" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/428" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/429" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/430" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/431" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/432" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/433" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/434" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/435" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/436" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/437" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/438" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/439" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/440" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/441" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/443" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/444" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/445" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/446" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/447" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/448" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/449" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/450" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/451" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/452" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/453" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/454" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/455" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/456" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/457" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/458" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/459" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/460" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/461" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/462" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/463" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/464" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/465" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/466" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/467" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/468" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/469" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/470" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/471" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/472" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/473" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/474" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/475" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/476" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/477" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/478" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/479" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/480" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/481" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/482" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/483" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/484" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/485" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/486" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/487" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/488" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/489" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/490" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/491" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/492" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/493" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/494" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/495" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/496" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/497" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/498" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/499" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/501" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/502" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/503" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/504" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/505" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/506" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/507" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/508" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/509" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/510" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/511" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/513" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/514" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/515" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/516" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/517" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/518" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/519" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/521" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/522" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/523" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/524" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/525" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/526" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/527" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/528" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/529" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/530" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/531" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/532" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/533" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/534" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/535" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/536" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/537" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/538" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/539" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/540" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/541" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/542" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/543" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/544" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/545" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/546" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/547" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/548" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/549" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/550" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/551" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/552" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/553" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/555" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/556" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/557" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/558" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/559" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/560" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/561" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/562" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/563" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/564" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/565" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/566" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/567" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/568" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/569" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/570" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/571" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/572" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/573" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/574" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/575" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/576" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/577" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/578" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/579" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/580" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/581" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/582" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/583" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/584" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/585" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/586" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/587" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/588" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/589" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/590" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/591" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/592" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/593" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/594" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/595" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/596" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/597" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/598" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/599" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/600" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/601" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/602" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/603" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/604" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/605" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/606" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/607" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/609" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/610" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/611" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/612" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/614" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/615" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/616" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/617" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/618" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/619" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/620" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/621" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/622" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/623" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/624" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/625" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/626" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/627" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/628" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/629" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/630" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/631" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/632" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/633" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/634" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/635" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/636" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/637" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/638" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/639" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/640" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/641" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/642" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/644" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/645" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/646" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/647" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/648" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/649" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/650" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/651" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/652" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/653" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/654" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/655" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/656" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/657" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/658" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/659" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/660" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/661" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/662" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/663" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/664" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/665" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/666" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/667" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/668" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/669" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/670" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/671" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/672" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/673" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/674" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/675" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/676" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/677" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/678" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/679" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/680" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/681" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/682" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/683" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/684" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/685" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/686" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/687" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/688" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/689" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/69" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/690" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/691" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/692" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/693" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/694" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/695" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/697" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/698" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/699" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/700" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/701" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/702" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/703" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/704" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/705" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/706" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/707" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/709" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/710" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/711" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/712" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/713" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/714" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/715" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/716" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/717" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/718" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/719" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/720" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/721" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/722" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/723" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/724" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/725" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/726" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/727" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/728" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/729" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/730" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/731" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/732" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/733" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/735" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/736" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/737" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/738" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/739" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/740" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/741" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/742" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/743" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/744" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/747" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/748" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/749" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/750" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/751" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/752" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/753" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/754" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/755" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/756" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/757" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/758" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/759" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/760" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/761" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/762" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/763" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/764" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/765" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/766" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/767" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/768" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/769" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/77" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/770" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/771" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/772" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/773" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/774" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/775" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/776" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/777" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/778" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/779" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/780" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/781" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/782" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/783" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/784" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/785" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/786" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/787" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/788" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/789" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/790" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/791" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/792" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/793" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/794" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/795" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/796" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/797" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/799" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/80" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/800" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/801" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/802" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/803" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/804" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/805" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/806" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/807" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/809" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/810" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/811" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/812" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/813" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/815" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/816" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/817" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/818" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/819" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/820" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/821" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/822" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/823" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/824" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/825" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/826" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/827" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/828" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/829" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/830" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/831" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/832" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/833" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/834" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/835" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/836" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/837" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/839" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/840" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/841" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/842" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/843" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/844" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/845" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/846" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/847" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/848" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/849" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/850" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/851" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/852" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/853" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/854" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/855" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/856" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/857" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/858" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/859" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/86" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/860" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/861" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/862" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/863" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/864" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/865" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/866" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/867" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/868" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/869" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/870" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/871" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/872" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/873" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/874" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/875" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/876" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/877" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/878" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/879" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/88" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/880" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/881" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/882" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/883" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/884" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/885" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/886" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/887" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/888" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/889" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/890" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/891" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/892" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/893" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/894" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/895" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/896" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/897" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/898" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/899" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/900" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/901" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/902" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/903" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/904" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/905" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/906" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/907" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/911" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/912" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/913" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/914" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/915" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/916" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/917" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/918" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/919" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/920" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/921" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/922" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/923" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/924" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/925" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/927" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/928" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/929" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/93" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/930" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/932" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/933" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/934" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/935" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/936" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/937" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/938" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/939" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/940" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/941" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/942" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/943" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/944" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/945" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/946" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/947" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/948" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/949" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/95" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/950" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/951" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/952" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/953" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/954" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/955" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/957" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/958" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/960" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/961" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/962" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/963" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/964" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/965" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/966" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/967" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/968" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/969" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/970" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/971" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/973" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/974" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/975" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/976" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/977" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/978" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/979" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/980" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/981" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/982" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/983" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/984" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/985" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/986" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/987" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/988" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/989" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/990" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/991" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/992" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/993" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/994" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/995" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/996" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/997" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/998" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/999" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/mabbed_evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/mabbed_evaluation_with_505event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events2012lookup/relevant_tweets/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events2012lookup/relevant_tweets/dictionary_for_number_of_associatedTweets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mabed/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mabed/corpus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mabed/mabed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mabed/stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mabed/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stopwords/twitter_en.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trends/all_textfile_into_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trends/trend20180523-195938.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trends/trend20180524-121831.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trends/twitter_trend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet_streaming/multiplecsv_in_oneFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet_streaming/tweet_streaming.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Tracking_events_using_social_media_analytics_and_news_paper_APIs_$evte.coverage" NAME="evte Coverage Results" MODIFIED="1541847489424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/events2012lookup/relevant_tweets" />
+    <SUITE FILE_PATH="coverage/Tracking_events_using_social_media_analytics_and_news_paper_APIs_$associated_tweets_ofEvent.coverage" NAME="associated_tweets_ofEvent Coverage Results" MODIFIED="1542196243388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/events2012lookup/relevant_tweets" />
+    <SUITE FILE_PATH="coverage/Tracking_events_using_social_media_analytics_and_news_paper_APIs_$dictionary_table.coverage" NAME="dictionary_table Coverage Results" MODIFIED="1542196300606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/events2012lookup/relevant_tweets" />
+    <SUITE FILE_PATH="coverage/Tracking_events_using_social_media_analytics_and_news_paper_APIs_$tweet_streaming.coverage" NAME="tweet_streaming Coverage Results" MODIFIED="1534495726248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet_streaming" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mabbed_evaluation_with_505event.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evaluation/mabbed_evaluation_with_505event.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>256292946331181056</find>
+      <find>VP @JoeBiden is very smiley tonight</find>
+      <find>Bidens laughing is a little disrespectful 2012VPDebate VPDebate2012</find>
+      <find>256354786901909506</find>
+      <find>stop</find>
+      <find>stopwords</find>
+      <find>&amp;</find>
+      <find>presidential 2012 debates general election debate november lynn activity amlo</find>
+      <find>0</find>
+      <find>BBC News  Chinese author Mo Yan wins Nobel Prize for Literature httptcoqPsCtHB9</find>
+      <find>Mo Yan wins 2012 Nobel Prize for Literature Grab his book Change here httptcon3hJ4m3C @randomhouseau</find>
+      <find>News Chinese author Mo Yan wins Nobel httptco9QFHaJyE News BBC</find>
+      <find>print</find>
+      <find>@</find>
+      <find>debate</find>
+      <find>256560391813988352</find>
+      <find>256565076805447680</find>
+      <find>256567547321790466</find>
+      <find>256569614887178241</find>
+      <find>258385526447550465</find>
+      <find>257359981320482816</find>
+      <find>263381475221708800</find>
+      <find>263382620258308097</find>
+      <find>264485482833014784</find>
+      <find>264937872061235200</find>
+      <find>265157691452837888</find>
+      <find>258206253304651776</find>
+      <find>259357304732930048</find>
+      <find>262496699409367040</find>
+      <find>presidential</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/stopwords/twitter_en.txt" />
+        <option value="$PROJECT_DIR$/tweet_streaming/tweet_streaming.py" />
+        <option value="$PROJECT_DIR$/events2012 tweet lookup/tweet_lookup.py" />
+        <option value="$PROJECT_DIR$/events2012 tweet lookup/relevant tweets/tweet_lookup.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetText.csv" />
+        <option value="$PROJECT_DIR$/Search Apis/tfidf.py" />
+        <option value="$PROJECT_DIR$/Search Apis/event_descriptions.tsv" />
+        <option value="$PROJECT_DIR$/Search Apis/lda_topics.py" />
+        <option value="$PROJECT_DIR$/Search Apis/out.txt" />
+        <option value="$PROJECT_DIR$/Search Apis/output.txt" />
+        <option value="$PROJECT_DIR$/events2012lookup/tweet_lookup.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetId_seperator.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetText1.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent2.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent3.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent4.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent5.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent6.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent7.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent8.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/test.py" />
+        <option value="$PROJECT_DIR$/Search Apis/snippet_google.txt" />
+        <option value="$PROJECT_DIR$/Search Apis/snippet_google3.txt" />
+        <option value="$PROJECT_DIR$/Search Apis/bargrapg.py" />
+        <option value="$PROJECT_DIR$/Search Apis/tfIdf.py" />
+        <option value="$PROJECT_DIR$/Search Apis/lda_modeler.py" />
+        <option value="$PROJECT_DIR$/Search Apis/topic_modelr.py" />
+        <option value="$PROJECT_DIR$/Search Apis/LDA.py" />
+        <option value="$PROJECT_DIR$/Search Apis/snippet_wordcloud.py" />
+        <option value="$PROJECT_DIR$/browser/static/css/style.css" />
+        <option value="$PROJECT_DIR$/mabed/mabed.py" />
+        <option value="$PROJECT_DIR$/detectedEvent.txt" />
+        <option value="$PROJECT_DIR$/build_event_browser.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/numberof_associatedTweets.py" />
+        <option value="$PROJECT_DIR$/detectedEvent_mainTerm.txt" />
+        <option value="$PROJECT_DIR$/Event2012_mabbedTopic.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/evte.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/ev.tsv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweets.tsv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/dictionary.txt" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/dict.csv" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/dictionary_table.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Search/test.py" />
+        <option value="$PROJECT_DIR$/Search/tfIdf.py" />
+        <option value="$PROJECT_DIR$/evaluation/Event2012_mabbedTopic.py" />
+        <option value="$PROJECT_DIR$/events2012lookup/relevant_tweets/associated_tweets_ofEvent.py" />
+        <option value="$PROJECT_DIR$/help.txt" />
+        <option value="$PROJECT_DIR$/data/event_descriptions.tsv" />
+        <option value="$PROJECT_DIR$/output/detectedEvent_mainTerm.txt" />
+        <option value="$PROJECT_DIR$/evaluation/mabbed_evaluation_with_505event.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="816" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\Search Apis" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\events2012lookup\relevant_tweets" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\tweet_streaming" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\google_search\Google-Search-API-master\google\modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\output" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\events2012lookup" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\evaluation" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\Search" />
+      <recent name="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\events2012lookup\relevant_tweets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.mabbed_evaluation_with_505event">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="associated_tweets_ofEvent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/events2012lookup/relevant_tweets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/events2012lookup/relevant_tweets/associated_tweets_ofEvent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dictionary_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/events2012lookup/relevant_tweets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\events2012lookup\relevant_tweets\dictionary_for_number_of_associatedTweets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mabbed_evaluation_with_505event" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/mabbed_evaluation_with_505event.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\spark\Desktop\Thesis\Final version\Tracking-events-using-social-media-analytics-and-news-paper-APIs-\Search\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tfIdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tracking-events-using-social-media-analytics-and-news-paper-APIs-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search/tfIdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.associated_tweets_ofEvent" />
+      <item itemvalue="Python.dictionary_table" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.tfIdf" />
+      <item itemvalue="Python.mabbed_evaluation_with_505event" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mabbed_evaluation_with_505event" />
+        <item itemvalue="Python.tfIdf" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.dictionary_table" />
+        <item itemvalue="Python.associated_tweets_ofEvent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a386f4d7-9659-43b7-b558-42080955dd7b" name="Default" comment="" />
+      <created>1532441171444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532441171444</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50064266" side_tool="true" weight="0.40134227" />
+      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="5" side_tool="true" weight="0.24293059" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90938306" weight="0.30738255" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5025707" weight="0.74496645" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.17930591" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" side_tool="true" weight="0.79241645" />
+      <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.20244215" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.32885906" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="59" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent2.csv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent3.csv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent4.csv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent5.csv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent7.csv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent6.csv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetTextEvent8.csv" />
+    <entry file="file://$PROJECT_DIR$/Search/snippet_google.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search Apis/snippet_google3.txt" />
+    <entry file="file://$PROJECT_DIR$/Search Apis/lda_modeler.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pyLDAvis/_display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="299" selection-start-line="299" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/snippet_wordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/bargrapg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search Apis/google_search.py" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/tweet_ids_only.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browser/templates/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mabed/corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mabed/mabed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="185" column="86" lean-forward="true" selection-start-line="185" selection-start-column="86" selection-end-line="185" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/event_descriptions.tsv" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tweepy/binder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="519" lean-forward="true" selection-start-line="519" selection-end-line="519" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="633" selection-start-line="633" selection-end-line="633" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tabulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5333">
+          <caret line="966" column="18" lean-forward="true" selection-start-line="966" selection-start-column="18" selection-end-line="966" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-968773976/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5287">
+          <caret line="517" column="4" selection-start-line="517" selection-start-column="4" selection-end-line="517" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/ev.tsv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/evte.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="2439" column="4" selection-start-line="2439" selection-start-column="4" selection-end-line="2439" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/LDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/BingWebSearchv7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="46" column="76" lean-forward="true" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/snippet_twitter.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="161" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search/tfIdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/tweetText.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="17">
+          <caret line="31" column="137" selection-start-line="31" selection-start-column="137" selection-end-line="31" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/tweet_lookup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/mabbed_evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="51" lean-forward="true" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetIds.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweets.tsv" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/numberof_associatedTweets.py" />
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/tweet_lookup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/dict.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetId_seperator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/relevant_tweetText.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detect_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_event_browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/event_descriptions.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="164" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/associated_tweets_ofEvent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/detectedEvent_mainTerm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events2012lookup/relevant_tweets/dictionary_for_number_of_associatedTweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/mabbed_evaluation_with_505event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
