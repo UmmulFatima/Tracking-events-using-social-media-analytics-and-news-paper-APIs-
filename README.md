@@ -9,11 +9,10 @@ for example, install numpy library using pip
 ```bash
 pip install numpy
 ```
-
 ## Description
-i) A new models for event detection and tracking through a selection of appropriate features.  
-ii) Topic detection and analysis using selected list of extracted concepts. 
-iii) Visualization toolkit to test and evaluate the performance of the detected event
+1. A new idea for event detection and tracking through a selection of appropriate features.  
+2. Topic detection and analysis using selected list of extracted concepts. 
+3. Visualization toolkit to test and evaluate the performance of the detected event
 
 ## Programming language, libraries and APIs
 - python 3, Flask framework
