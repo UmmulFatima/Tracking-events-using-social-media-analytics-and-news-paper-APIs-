@@ -1,5 +1,8 @@
 # Event detection in Twitter
 Tracking events using social media analytics and news paper APIs
+![alt tag](home.png)
+![alt tag](wordcloud.png)
+![alt tag](chart.png)
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages
